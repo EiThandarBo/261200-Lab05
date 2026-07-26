@@ -1,7 +1,7 @@
 import java.time.LocalDate;
 
 public class User {
-    // Protected fields (denoted by '#' in UML)
+    // Protected fields
     protected String name;
     protected LocalDate dob;
 

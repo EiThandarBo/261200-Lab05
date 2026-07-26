@@ -2,13 +2,13 @@ import java.time.LocalDate;
 
 public class Lab05 {
     public static void main(String[] args) {
-        // --- Previous Lab Tests ---
+
         User john = new User("John", 1954, 2, 18);
-        System.out.println(john.getInfo());
+        System.out.println(john.getInfo());//return getInfo
 
         Admin nicolas = new Admin("Nicolas", 1964, 1, 7);
-        System.out.println(nicolas.getInfo());
-
+        System.out.println(nicolas.getInfo());//return override getInfo from Admin
+        //check getInfo from Admin is full or not
         System.out.println(nicolas.getInfo(true));
         System.out.println(nicolas.getInfo(false));
 
